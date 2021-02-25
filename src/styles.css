@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin: 20px 40px;
+  color: #505050;
+}
+
+.font_2 {
+  font-family: "Source Code Pro", monospace;
+}
+
+.header_placeholder {
+  font-family: "Indie Flower", cursive;
+}
+
+.header_placeholder .activate_farenheit {
+  font-size: 25px;
+}
+
+.header_placeholder .search_box .input-field {
+  text-align: center;
+  font-size: 40px;
+}
+
+/*
+.header_placeholder .search_button .btn {
+  font-size: 20px;
+  padding: 0 60px;
+}
+
+
+.btn {
+  font-size: 20px;
+  padding: 0 60px;
+}
+*/
+
+.header_placeholder .user_input .logo {
+  font-size: 120px;
+  color: #a3d2ca;
+  text-align: right;
+}
+
+/*
+.header_placeholder .search_button {
+  margin-top: 20px;
+}
+
+
+.header_placeholder .user_input .search_box .search_icon {
+  position: relative;
+  left: 40px;
+  font-size: 25px;
+  color: #214151;
+}
+*/
+
+.current_selection .city_name {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+.weather_now_selected_city {
+  margin: 20px 0;
+  font-family: "Indie Flower", cursive;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 20px;
+}
+
+.weather_now_selected_city .temperature_now {
+  font-size: 130px;
+  font-weight: bold;
+}
+
+.weather_now_selected_city .weather_icon .weather_now_icon {
+  font-size: 230px;
+  color: #fff;
+}
+
+.weather_now_selected_city .weather_icon .icon_description {
+  text-align: center;
+  color: #9997ad;
+  font-weight: bold;
+}
+.weather_now_selected_city .weather_icon .timezone {
+  text-align: center;
+}
+
+.weather_now_selected_city .sub-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.warning_of_the_day {
+  font-weight: bold;
+}
+
+.warning_of_the_day .special_character {
+  font-size: 40px;
+  color: red;
+}
+
+.horizontal-scrollable {
+  overflow-x: scroll;
+  height: 250px;
+}
+
+.horizontal-scrollable .row_next_hours {
+  width: 200%;
+  height: 250px;
+}
+
+.vertical-scrollable {
+  overflow-y: scroll;
+  height: 250px;
+}
+
+.next_days .min-max_separator {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.next_days .min_temperature {
+  color: red;
+}
+
+.next_days .max_temperature {
+  color: green;
+}
